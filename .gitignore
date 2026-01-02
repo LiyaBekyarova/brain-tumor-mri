@@ -40,11 +40,12 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Model files (optional - uncomment if you don't want to track model files)
-# *.h5
-# *.pkl
-# *.pt
-# *.pth
+# Model files (large files - not tracked in git)
+*.h5
+*.pkl
+*.pt
+*.pth
+models/*.h5
 
 # Environment variables
 .env
